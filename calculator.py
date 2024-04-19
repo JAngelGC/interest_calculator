@@ -180,7 +180,7 @@ def calcular_ahorro(numero_de_pagos: int, meses_de_gracia: int,
     print(output)
 
     return (ahorro_real, output, matrix)
-    
+
 
 def main():
     """
@@ -217,7 +217,7 @@ def main():
     with open("output.log", "w") as f:
         f.write(total_output)
 
-    write_matriz_de_pagos_to_csv(best_matriz_de_pagos, 'matrix.csv')
+    write_matriz_de_pagos_to_csv(best_matriz_de_pagos, 'payment_matrix.csv')
 
     print("\n\n\n\n-----------------------------------------\n")
     print(f"MAXIMO AHORRO: {formatear_a_moneda(maximo_ahorro)} es obtenido por el siguiente test case")

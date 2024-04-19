@@ -1,0 +1,38 @@
+# Program files
+payment_matrix.csv
+output.log
+
+# Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# Byte-compiled files
+*.pyo
+*.pyc
+
+# Caches and logs
+*.log
+logs/
+
+# Build directories
+build/
+dist/
+__pycache__/
+
+# Environment variables file
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Package-specific files
+*.egg-info/
